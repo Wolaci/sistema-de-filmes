@@ -26,9 +26,13 @@
 		<br><br>Password <input class="form-control " type="password" name="password" required >
 		</div>
 		<!-- <div class="col justify-content-between"> -->
-		<input class="form-control " type="submit" value="Enviar" style="margin-top: 10px">
+		<input class="form-control" type="submit" value="Enviar" style="margin-top: 10px">
 		</div>
 	</form>
+	<center><a class="btn btn-outline-primary" role="button" href="home.php">Voltar</a></center>
+	<center><a class="btn btn-outline-primary" role="button" href="login.php">Login</a></center>
+
+
 
 	</div>
 </body>

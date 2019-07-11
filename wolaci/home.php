@@ -9,8 +9,12 @@
 <head>
 	<title></title>
 		<link rel="stylesheet" href="bootstrap.min.css">
+		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
 </head>
-<body>
+<body style="background-color: #bbdefb blue lighten-4
+">
+
 	<div class="container">
 	<table class="table">
 		<tr>
@@ -31,7 +35,7 @@
 				<td><?=$dado[4]?></td>
 				<td><?=$dado[5]?></td>
 				<td><?=$dado[6]?></td>
-				<!-- <td><a href="delete.php?id=<?=$dado[0]?>" >excluir<a></td> -->
+				<td><a href="assistirFilme.php?id=<?=$dado[0]?>">Assistir filme<a></td>
 				<td><a href="editMovie.php?id=<?=$dado[0]?>">editar</a></td>	
 		</tr>
 			<?php  endforeach; ?>

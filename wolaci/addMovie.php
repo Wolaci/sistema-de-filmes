@@ -5,6 +5,7 @@
 	<title>Cadastro</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 	<style>
 /*		body{
 			background-color: ; 
@@ -28,6 +29,7 @@
 		<input class="form-control " type="submit" value="Enviar" style="margin-top: 10px">
 		</div>
 	</form>
+	<center>	<a class="btn btn-outline-primary" role="button" href="home.php">Voltar</a> </center>
 
 	</div>
 </body>
