@@ -69,7 +69,7 @@ insert into users_movies (user_id, movie_id, watched, grade) values
 -- (1,0) A tela inicial para usuários logados deve listar todos os filmes já cadastrados, priorizando os filmes que o usuário tem a intenção de assistir, seguidos pelos que ele já assistiu, seguidos pelos demais.
 -- (1,0) Na tela para usuários logados deve ter: (1) um link para adicionar um novo filme, (2) para cada filme, dois links, com a seguinte regra: se o usuário marcou como assistido, ele pode marcar como "para assistir" ou "não assisti"; se o usuário marcou como "para assistir", ele pode marcar como "assistido" ou "não assisti"; se o usuário não marcou o filme, ele pode marcar como "assistido" ou "para assistir".
 -- Rota 1:
-    -- (2,0) O usuário, após logado, deve ter um link com uma tela onde ele pode atualizar seus dados.
+    -- +(2,0) O usuário, após logado, deve ter um link com uma tela onde ele pode atualizar seus dados.
     -- (1,0) Deve ter uma tela onde um usuário pode adicionar um novo filme, com os seus dados
     -- +(2,0) Cada filme deve ter um link com uma tela para editar seus dados.
 -- Rota 2:

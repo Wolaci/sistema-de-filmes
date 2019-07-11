@@ -1,14 +1,12 @@
 <?php 
+	session_start();
 	include 'conn.php';
 	include 'auth.php';
-	$id = $_GET['id'];
 	$edit=$conn->prepare('SELECT * FROM users WHERE id = ?');
-
-	print_r($edit);
-	$edit->execute([$id]);
+	$edit->execute([$_SESSION['id']]);
 	$editar = $edit->fetch(PDO::FETCH_ASSOC);
+	// var_dump($_SESSION['id']); 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +16,7 @@
 </head>
 <body>
 <div class="container">
-	<form action="editar.php"  method="POST">
+	<form action="updateUser.php"  method="POST">
 		<input type="hidden" name="id" value="<?= $editar['id'] ?>">
 		
 		<div class="row">

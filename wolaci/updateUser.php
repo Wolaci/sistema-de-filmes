@@ -1,10 +1,10 @@
 <?php 
-
-// name, genre, year, duration, synopsis
-
+	session_start();
+	// name, genre, year, duration, synopsis
+	include 'auth.php';
 	include 'conn.php';
 	$query = $conn->prepare("UPDATE users SET name = ? , email = ? , password = ?  WHERE id = ? ");
-	$query->execute([$_POST['name'],$_POST['email'],$_POST['password'], $_POST['id']]);
+	$query->execute([$_POST['name'],$_POST['email'],$_POST['password'], $_SESSION['id']]);
  ?>
 <!DOCTYPE html>
 <html lang="en">
