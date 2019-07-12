@@ -24,5 +24,6 @@ if($teste->rowCount() == 1){
 }
 else{
 	header('location: login.php');
+	echo 'e-mail ou senha incorretos';
 }
 ?>

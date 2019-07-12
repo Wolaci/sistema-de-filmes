@@ -75,14 +75,14 @@
             <div class='row'>
               <div class='input-field col s12'>
                 <input class='validate' type='email' name='email'  />
-                <label for='email'>Enter your email</label>
+                <label for='email'>E-mail</label>
               </div>
             </div>
 
             <div class='row'>
               <div class='input-field col s12'>
                 <input class='validate' type='password' name='password'  />
-                <label for='password'>Enter your password</label>
+                <label for='password'>Senha</label>
               </div>
               <label style='float: right;'>
 								<a class='pink-text' href='#!'><b>Forgot Password?</b></a>

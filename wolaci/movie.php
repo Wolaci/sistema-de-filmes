@@ -24,10 +24,12 @@ try{
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<link rel="stylesheet" href="bootstrap.min.css">
 </head>
 <body>
-	<a class="btn btn-outline-primary" role="button" href="home.php">Tela inicial</a>
-	<a class="btn btn-outline-primary" role="button" href="addMovie.php">Adicionar um novo filme</a>
+	<center><a class="btn btn-outline-primary" role="button" href="home.php">Tela inicial</a></center>
+	<br>
+	<center><a class="btn btn-outline-primary" role="button" href="addMovie.php">Adicionar um novo filme</a></center>
 
 </body>
 </html>

@@ -33,7 +33,7 @@ create table users_movies (
 
 -- ENDUP
 
-create user if not exists web20191 identified by 'web20191';
+create user if not exists root identified by 'web20191';
 grant all privileges on web20191filmes.* to web20191;
 
 -- SEED
@@ -70,7 +70,7 @@ insert into users_movies (user_id, movie_id, watched, grade) values
 -- (1,0) Na tela para usuários logados deve ter: (1) um link para adicionar um novo filme, (2) para cada filme, dois links, com a seguinte regra: se o usuário marcou como assistido, ele pode marcar como "para assistir" ou "não assisti"; se o usuário marcou como "para assistir", ele pode marcar como "assistido" ou "não assisti"; se o usuário não marcou o filme, ele pode marcar como "assistido" ou "para assistir".
 -- Rota 1:
     -- +(2,0) O usuário, após logado, deve ter um link com uma tela onde ele pode atualizar seus dados.
-    -- (1,0) Deve ter uma tela onde um usuário pode adicionar um novo filme, com os seus dados
+    -- +(1,0) Deve ter uma tela onde um usuário pode adicionar um novo filme, com os seus dados
     -- +(2,0) Cada filme deve ter um link com uma tela para editar seus dados.
 -- Rota 2:
     -- (1,0) O link de "assistido" deve atualizar a coluna "watched" na tabela users_movies caso já tenha um registro para o usuário/filme, ou adicionar um novo registro caso não haja.

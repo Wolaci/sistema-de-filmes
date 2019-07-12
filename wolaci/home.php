@@ -35,7 +35,7 @@
 				<td><?=$dado[4]?></td>
 				<td><?=$dado[5]?></td>
 				<td><?=$dado[6]?></td>
-				<td><a href="assistirFilme.php?id=<?=$dado[0]?>">Assistir filme<a></td>
+				<td><a href="statusFilme.php?id=<?=$dado[0]?>">Status<a></td>
 				<td><a href="editMovie.php?id=<?=$dado[0]?>">editar</a></td>	
 		</tr>
 			<?php  endforeach; ?>

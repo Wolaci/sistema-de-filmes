@@ -30,7 +30,8 @@
 		</div>
 	</form>
 	<center><a class="btn btn-outline-primary" role="button" href="home.php">Voltar</a></center>
-	<center><a class="btn btn-outline-primary" role="button" href="login.php">Login</a></center>
+	<br>
+	<center><a class="btn btn-outline-primary" role="button" href="login.php">Fazer Login</a></center>
 
 
 
